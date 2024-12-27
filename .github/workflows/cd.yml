@@ -17,6 +17,9 @@ jobs:
       - name: Set up Docker Buildx
         run: |
           docker buildx create --use
+      - name: Ls
+        run: |
+          ls
 
       - name: Login to DockerHub
         run: |
