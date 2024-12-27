@@ -1,5 +1,5 @@
 {
-  "name": "@t1/source",
+  "name": "@k8s-web/source",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {

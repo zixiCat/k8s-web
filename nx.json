@@ -38,7 +38,7 @@
       }
     }
   ],
-  "defaultProject": "t1",
+  "defaultProject": "k8s-web",
   "generators": {
     "@nx/react": {
       "application": {

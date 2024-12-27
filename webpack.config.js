@@ -4,7 +4,7 @@ const { join } = require('path');
 
 module.exports = {
   output: {
-    path: join(__dirname, './dist/t1'),
+    path: join(__dirname, './dist/k8s-webs-webs-webs-web'),
   },
   devServer: {
     port: 4200,

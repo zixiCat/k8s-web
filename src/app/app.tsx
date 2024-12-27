@@ -3,7 +3,7 @@ import NxWelcome from './nx-welcome';
 export function App() {
   return (
     <div>
-      <NxWelcome title="t1" />
+      <NxWelcome title="k8s-web" />
     </div>
   );
 }
