@@ -16,4 +16,4 @@ spec:
         - name: k8s-web
           image: zixicat/k8s-web:latest
           ports:
-            - containerPort: 4200
+            - containerPort: 80
