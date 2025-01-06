@@ -2,17 +2,18 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: k8s-web
-  labels:
-    app: k8s-web
 spec:
   replicas: 2
   selector:
     matchLabels:
       app: k8s-web
   template:
+    metadata:
+      labels:
+        app: k8s-web
     spec:
       containers:
         - name: k8s-web
           image: zixicat/k8s-web:latest
           ports:
-            - containerPort: 80
+            - containerPort: 4200
